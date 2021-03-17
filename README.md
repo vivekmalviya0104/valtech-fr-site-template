@@ -1,0 +1,1 @@
+# valtech-fr-site-template
