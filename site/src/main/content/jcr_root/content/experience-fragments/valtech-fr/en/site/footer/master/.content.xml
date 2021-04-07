@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-03-18T14:43:37.432Z"
+        cq:lastModifiedBy="vivek.malviya@valtech.com"
+        cq:tags="[]"
+        cq:template="/conf/valtech-fr/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Footer"
+        sling:resourceType="cq/experience-fragments/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container"
+            layout="responsiveGrid">
+            <separator
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/separator/v1/separator"/>
+            <text
+                jcr:lastModified="{Date}2021-03-18T14:37:11.597Z"
+                jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/text/v2/text"
+                text="&lt;p style=&quot;margin-left: 280px;&quot;>© 2021, valtech_ France.&amp;nbsp;All rights reserved.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 280px;&quot;>info @valtech.com&lt;/p>&#xd;&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="7"
+                        width="5"/>
+                </cq:responsive>
+            </text>
+            <container
+                jcr:created="{Date}2021-03-18T14:42:44.086Z"
+                jcr:createdBy="vivek.malviya@valtech.com"
+                jcr:lastModified="{Date}2021-03-18T14:42:44.086Z"
+                jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"/>
+        </root>
+    </jcr:content>
+</jcr:root>

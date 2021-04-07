@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:conf="/conf/valtech_fr"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Valtech FR">
+        <folderThumbnail/>
+    </jcr:content>
+    <logo_x0020_blue.png/>
+    <facebook.png/>
+    <Instagram.png/>
+    <twitter.png/>
+    <youtube.png/>
+    <column-1.png/>
+    <column-2.png/>
+    <column-3.png/>
+    <column-4.png/>
+    <logo-blue.png/>
+    <logo-white.png/>
+    <tab-content-1.png/>
+    <tab-content2.png/>
+    <watches.png/>
+</jcr:root>

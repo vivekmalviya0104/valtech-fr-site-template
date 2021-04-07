@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2021-03-18T14:26:15.488Z"
+        cq:lastModifiedBy="vivek.malviya@valtech.com"
+        cq:template="/conf/valtech-fr/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="My Site"
+        sling:resourceType="core/wcm/components/page/v2/page"
+        pageTitle="My Site">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container">
+                <title
+                    jcr:lastModified="{Date}2021-03-18T14:26:15.459Z"
+                    jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title=" T"
+                    sling:resourceType="core/wcm/components/title/v2/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    layout="responsiveGrid">
+                    <image
+                        jcr:created="{Date}2021-03-18T13:46:08.926Z"
+                        jcr:createdBy="vivek.malviya@valtech.com"
+                        jcr:lastModified="{Date}2021-03-18T13:47:18.326Z"
+                        jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/image/v2/image"
+                        fileReference="/content/dam/valtech_fr/watches.png">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </image>
+                    <teaser
+                        jcr:created="{Date}2021-03-18T13:53:49.714Z"
+                        jcr:createdBy="vivek.malviya@valtech.com"
+                        jcr:description="&lt;h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a nibh consequat, fermentum dui sit amet, egestas dolor. Cras eu odio in dui dictum gravida ac tempor purus.&lt;/h3>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2021-03-18T13:58:39.064Z"
+                        jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Better care, healthier patient"
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/valtech_fr/logo blue.png"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="#"
+                                text="Learn More"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                link="#"
+                                text="Buy Now"/>
+                        </actions>
+                    </teaser>
+                    <text
+                        jcr:created="{Date}2021-03-18T14:00:39.245Z"
+                        jcr:createdBy="vivek.malviya@valtech.com"
+                        jcr:lastModified="{Date}2021-03-18T14:00:39.245Z"
+                        jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="5"/>
+                        </cq:responsive>
+                    </text>
+                    <text_894713776
+                        jcr:created="{Date}2021-03-18T14:01:15.624Z"
+                        jcr:createdBy="vivek.malviya@valtech.com"
+                        jcr:lastModified="{Date}2021-03-18T14:02:42.925Z"
+                        jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;h3>Clinically validated&lt;/h3>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                    </text_894713776>
+                    <title
+                        jcr:created="{Date}2021-03-18T14:02:07.415Z"
+                        jcr:createdBy="vivek.malviya@valtech.com"
+                        jcr:lastModified="{Date}2021-03-18T14:02:33.309Z"
+                        jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Care watch benefits"
+                        sling:resourceType="core/wcm/components/title/v2/title"
+                        type="h1"/>
+                    <teaser_489216418
+                        jcr:created="{Date}2021-03-18T14:02:51.025Z"
+                        jcr:createdBy="vivek.malviya@valtech.com"
+                        jcr:description="&lt;p>Ut ac porta risus. Donec viverra diam vitae enim&lt;br>&#xd;&#xa;lobortis convallis. Suspendisse ut ex elit.&amp;nbsp;Interdum &lt;br>&#xd;&#xa;et malesuada fames ac ante ipsum primis in faucibus.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2021-03-18T14:10:26.151Z"
+                        jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/valtech_fr/column-1.png"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </teaser_489216418>
+                    <teaser_256462015
+                        jcr:created="{Date}2021-03-18T14:03:01.326Z"
+                        jcr:createdBy="vivek.malviya@valtech.com"
+                        jcr:description="&lt;p>Nullam euismod eget dui id maximus. Proin nec &lt;br>&#xd;&#xa;placerat justo.&amp;nbsp;Ut ac sollicitudin ipsum, at dignissim &lt;br>&#xd;&#xa;leo.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2021-03-18T14:10:49.876Z"
+                        jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/valtech_fr/column-2.png"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </teaser_256462015>
+                    <teaser_473674709
+                        jcr:created="{Date}2021-03-18T14:03:03.597Z"
+                        jcr:createdBy="vivek.malviya@valtech.com"
+                        jcr:description="&lt;p>Maecenas id nisi lobortis lectus consectetur auctor id eget nisi.&lt;br>&#xd;&#xa;In eget placerat purus. In varius sollicitudin arcu, vitae commodo &lt;br>&#xd;&#xa;ligula condimentum et.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2021-03-18T14:09:43.798Z"
+                        jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/valtech_fr/column-3.png"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </teaser_473674709>
+                    <teaser_1678662237
+                        jcr:created="{Date}2021-03-18T14:03:05.541Z"
+                        jcr:createdBy="vivek.malviya@valtech.com"
+                        jcr:description="&lt;p>Aliquam a sem eget purus facilisis dictum. Cras non pretium tortor, ac porta erat. Morbi non ante mattis, placerat urna sit amet, tempor dolor. Etiam ultricies ultricies ipsum eget venenatis.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2021-03-18T14:08:42.595Z"
+                        jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/valtech_fr/column-4.png"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </teaser_1678662237>
+                    <text_562695098
+                        jcr:created="{Date}2021-03-18T14:12:17.096Z"
+                        jcr:createdBy="vivek.malviya@valtech.com"
+                        jcr:lastModified="{Date}2021-03-18T14:12:31.576Z"
+                        jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;h1 style=&quot;margin-left: 240px;&quot;>Care watch, the most advanced health&lt;/h1>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <tabs
+                        jcr:created="{Date}2021-03-18T14:08:57.897Z"
+                        jcr:createdBy="vivek.malviya@valtech.com"
+                        jcr:lastModified="{Date}2021-03-18T14:18:15.642Z"
+                        jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/tabs/v1/tabs"
+                        activeItem="teaser"
+                        id="item1">
+                        <teaser
+                            cq:panelTitle="How it works"
+                            jcr:created="{Date}2021-03-18T14:13:27.266Z"
+                            jcr:createdBy="vivek.malviya@valtech.com"
+                            jcr:lastModified="{Date}2021-03-18T14:20:26.187Z"
+                            jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/valtech_fr/tab-content-1.png"
+                            textIsRich="true"
+                            titleFromPage="false"/>
+                        <item_1616077073926
+                            cq:panelTitle="Rhoncus"
+                            jcr:description="&lt;p>Ut ac porta risus. Donec viverra diam vitae enim lobortis convallis. Suspendisse ut ex elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam euismod eget dui id maximus. Proin nec placerat justo. Ut ac sollicitudin ipsum, at dignissim leo. Maecenas id nisi lobortis lectus consectetur auctor id eget nisi. In eget placerat purus. In varius sollicitudin arcu, vitae commodo ligula condimentum et.&lt;/p>&#xd;&#xa;&lt;p>Aliquam a sem eget purus facilisis dictum. Cras non pretium tortor, ac porta erat. Morbi non ante mattis, placerat urna sit amet, tempor dolor. Etiam ultricies ultricies ipsum eget venenatis. Donec interdum diam velit, eu mattis elit pulvinar ut. Fusce dui massa, gravida sit amet mi a, faucibus rutrum tellus. Etiam placerat mattis nunc, sit amet dignissim dolor imperdiet vitae. Mauris vulputate nulla id facilisis ultrices. Fusce at pretium tellus. Duis maximus porttitor elit id rhoncus. Sed commodo velit massa, sed placerat nisl finibus a. Aliquam libero enim, egestas mattis varius a, imperdiet non lectus.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2021-03-18T14:20:05.687Z"
+                            jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            textIsRich="true"
+                            titleFromPage="false"/>
+                        <item_1616077098830
+                            cq:panelTitle="Ligula Triqutique"
+                            jcr:description="&lt;p>Duis mattis dui quis est luctus pharetra. Ut pharetra efficitur orci, id porta quam vulputate ut. Ut ut elit et odio finibus semper. Cras faucibus, eros sit amet placerat cursus, urna magna suscipit velit, id elementum dui mi vel ipsum. Sed tristique dolor ac odio facilisis, eget ornare nisl tempor. Nullam eget odio tellus. Aenean velit sem, blandit et purus in, posuere maximus libero. Quisque dictum massa ex, sit amet vulputate nisi cursus ac. Vestibulum id tempor ligula. Nullam non egestas leo. Suspendisse porttitor urna nulla. Phasellus sit amet magna accumsan, aliquet risus at, varius elit. Donec luctus justo eu libero vehicula finibus. Aenean ut quam eu turpis mollis commodo. Nulla facilisi.&lt;/p>&#xd;&#xa;&lt;p>Nunc semper augue nec sapien sollicitudin, eu convallis ligula luctus. Donec tristique nisl maximus, eleifend augue ut, pharetra orci. Quisque cursus purus a libero sollicitudin ullamcorper. Sed vitae mattis mi. Curabitur lobortis turpis at mauris consequat sodales. Vivamus cursus sit amet massa nec finibus. Praesent convallis tristique lacus. Vestibulum quis facilisis dui, efficitur bibendum justo. Maecenas eget laoreet augue. Etiam vel ornare nibh. Integer tellus mi, suscipit ut tristique eget, viverra ut eros.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2021-03-18T14:19:31.094Z"
+                            jcr:lastModifiedBy="vivek.malviya@valtech.com"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            textIsRich="true"
+                            titleFromPage="false"/>
+                    </tabs>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+    <about-us/>
+    <watches/>
+    <contact-us/>
+    <for-professionals/>
+</jcr:root>
